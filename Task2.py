@@ -48,6 +48,4 @@ for key, value in commonDict.items():
         finalDict[key] = commonDict[key][0]  # format key without changes, add correct value as int
     else:  # for other key add number of dict and correct max value as int
         finalDict[key + '_' + str(commonDict[key][1]+1)] = commonDict[key][0]  # i position of dict + 1 (human count)
-# print(finalDict)
-orderedFinalDict = sorted(finalDict)
-print(orderedFinalDict)
+print(finalDict)
