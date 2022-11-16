@@ -265,7 +265,7 @@ class DBConnection:
                 if db_result is None:
                     self.cursor.execute(book_query)
                 else:
-                    print('This ad already exists!')
+                    print('This book already exists!')
 
         self.connection.commit()
 
